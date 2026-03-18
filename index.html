@@ -41,7 +41,9 @@
     <main id="top" class="container">
       <section class="hero panel section-entrance">
         <div class="hero-copy">
-          <p class="eyebrow">UI Architect • Angular Ecosystem Specialist • Frontend Engineering Leader</p>
+          <p class="eyebrow eyebrow-typing" aria-label="UI Architect • Angular Ecosystem Specialist • Frontend Engineering Leader">
+            <span data-typing-text aria-hidden="true">UI Architect • Angular Ecosystem Specialist • Frontend Engineering Leader</span>
+          </p>
           <h1>
             Building <span>scalable, elegant, high-performance</span> enterprise web platforms.
           </h1>
@@ -442,6 +444,7 @@
         const button = document.querySelector("[data-theme-toggle]");
         const label = document.querySelector("[data-theme-label]");
         const icon = document.querySelector("[data-theme-icon]");
+        const typingTarget = document.querySelector("[data-typing-text]");
 
         if (!button || !label || !icon) {
           return;
@@ -459,6 +462,31 @@
         let currentTheme = storedTheme || preferredTheme;
 
         applyTheme(currentTheme);
+
+        if (typingTarget) {
+          const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+          const fullText = typingTarget.textContent.trim();
+          const typingContainer = typingTarget.closest(".eyebrow-typing");
+
+          if (!prefersReducedMotion && typingContainer && fullText) {
+            let index = 0;
+            typingTarget.textContent = "";
+            typingContainer.classList.add("is-typing");
+
+            const typeNextCharacter = () => {
+              typingTarget.textContent = fullText.slice(0, index + 1);
+              index += 1;
+
+              if (index < fullText.length) {
+                window.setTimeout(typeNextCharacter, 30);
+              } else {
+                typingContainer.classList.remove("is-typing");
+              }
+            };
+
+            window.setTimeout(typeNextCharacter, 350);
+          }
+        }
 
         button.addEventListener("click", () => {
           currentTheme = currentTheme === "dark" ? "light" : "dark";
