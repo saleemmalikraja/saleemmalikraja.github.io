@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Saleem Malik Raja — UI Architect, Angular specialist, and frontend engineering leader with experience building high-performance digital products."
+      content="Saleem Malik Raja — UI Architect, Angular specialist, engineering leader, and frontend platform strategist building high-performance enterprise experiences."
     />
     <title>Saleem Malik Raja | UI Architect</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -17,192 +17,306 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="background-glow glow-one"></div>
-    <div class="background-glow glow-two"></div>
+    <div class="ambient ambient-one"></div>
+    <div class="ambient ambient-two"></div>
+    <div class="ambient ambient-grid"></div>
+
     <header class="site-header">
-      <a class="brand" href="#top">SMR</a>
+      <a class="brand" href="#top" aria-label="Go to top">SMR</a>
       <nav class="site-nav" aria-label="Primary navigation">
-        <a href="#experience">Experience</a>
-        <a href="#skills">Skills</a>
+        <a href="#summary">About</a>
+        <a href="#experience">Timeline</a>
+        <a href="#skills">Stack</a>
+        <a href="#writing">Writing</a>
         <a href="#credentials">Credentials</a>
-        <a href="#writing">Links</a>
       </nav>
+      <div class="header-actions">
+        <button class="theme-toggle" type="button" data-theme-toggle aria-label="Toggle color theme">
+          <span class="theme-toggle-icon" data-theme-icon>◐</span>
+          <span data-theme-label>Theme</span>
+        </button>
+      </div>
     </header>
 
     <main id="top" class="container">
-      <section class="hero panel">
+      <section class="hero panel section-entrance">
         <div class="hero-copy">
           <p class="eyebrow">UI Architect • Angular Ecosystem Specialist • Frontend Engineering Leader</p>
-          <h1>Saleem Malik Raja</h1>
+          <h1>
+            Building <span>scalable, elegant, high-performance</span> enterprise web platforms.
+          </h1>
           <p class="lede">
-            UI Architect with extensive experience across enterprise platforms, industrial digital transformation,
-            and high-performance frontend systems. Specialized in Angular ecosystems, scalable design systems,
-            and translating business goals into reliable user experiences.
+            I design and lead frontend ecosystems for complex digital products — from Angular platform strategy and
+            design systems to data-heavy operational experiences, performance engineering, and team leadership.
           </p>
 
+          <div class="availability-pill">
+            <span class="pulse-dot"></span>
+            Open to impactful architecture, frontend platform, and digital transformation opportunities.
+          </div>
+
           <div class="hero-actions">
-            <a class="button button-primary" href="mailto:saleemmalikraja@gmail.com">Contact Me</a>
+            <a class="button button-primary" href="mailto:saleemmalikraja@gmail.com">Let’s connect</a>
+            <a class="button button-secondary" href="#experience">View project timeline</a>
             <a class="button button-secondary" href="https://github.com/saleemmalikraja" target="_blank" rel="noreferrer">GitHub</a>
-            <a class="button button-secondary" href="#writing">Profiles & Links</a>
           </div>
 
           <ul class="contact-strip">
             <li><strong>Email:</strong> <a href="mailto:saleemmalikraja@gmail.com">saleemmalikraja@gmail.com</a></li>
             <li><strong>Phone:</strong> <a href="tel:+919944494733">+91 99444 94733</a></li>
-            <li><strong>Profiles:</strong> <a href="https://medium.com/@saleemmalikraja" target="_blank" rel="noreferrer">Medium</a> · <a href="https://www.quora.com/profile/Saleem-Malik-10" target="_blank" rel="noreferrer">Quora</a></li>
+            <li><strong>Profiles:</strong> <a href="https://medium.com/@saleemmalikraja" target="_blank" rel="noreferrer">Medium</a> · <a href="https://dev.to/saleemmalikraja" target="_blank" rel="noreferrer">DEV</a> · <a href="https://www.quora.com/profile/Saleem-Malik-10" target="_blank" rel="noreferrer">Quora</a></li>
           </ul>
         </div>
 
-        <aside class="hero-highlight">
-          <div class="metric-card">
-            <span class="metric-value">10+</span>
-            <span class="metric-label">Years of professional experience</span>
+        <aside class="hero-showcase" aria-label="Career highlights">
+          <div class="showcase-orbit"></div>
+          <div class="metric-card floating-card delay-one">
+            <span class="metric-value">11.7+</span>
+            <span class="metric-label">Years designing and engineering UI solutions</span>
           </div>
-          <div class="metric-card">
+          <div class="metric-card floating-card delay-two">
             <span class="metric-value">70+</span>
-            <span class="metric-label">UI engineers mentored across global teams</span>
+            <span class="metric-label">UI engineers mentored across distributed teams</span>
           </div>
-          <div class="metric-card">
+          <div class="metric-card floating-card delay-three">
             <span class="metric-value">60+</span>
-            <span class="metric-label">High-performance web components built with Lit</span>
+            <span class="metric-label">Design-system components built with native web components</span>
           </div>
-          <div class="metric-card">
-            <span class="metric-value">25y</span>
-            <span class="metric-label">Legacy MineStar platform modernized into a unified ecosystem</span>
+          <div class="mini-panel">
+            <p class="mini-panel-label">Core focus</p>
+            <div class="tag-list compact-tags">
+              <span>Angular</span>
+              <span>Nx</span>
+              <span>NgRx</span>
+              <span>RxJS</span>
+              <span>Lit</span>
+              <span>PWA</span>
+            </div>
           </div>
         </aside>
       </section>
 
-      <section class="section">
+      <section class="section section-entrance" id="summary">
         <div class="section-heading">
           <p class="eyebrow">Profile</p>
-          <h2>What I bring</h2>
+          <h2>A profile designed to stand out</h2>
+          <p>
+            Strong engineering depth, enterprise platform thinking, clean UI execution, and a visible public voice
+            through technical writing.
+          </p>
         </div>
-        <div class="grid two-column">
-          <article class="panel">
-            <h3>Summary</h3>
-            <p>
-              I build modern frontend platforms for complex business environments. My background spans UI architecture,
-              design systems, large-scale Angular applications, responsive experiences, team leadership, and close
-              collaboration with product and API teams.
-            </p>
-          </article>
-          <article class="panel">
-            <h3>Core strengths</h3>
-            <ul class="bullet-list compact">
-              <li>Enterprise UI architecture and digital transformation</li>
-              <li>Angular, Nx, NgRx, RxJS, Lit, and reusable component systems</li>
-              <li>Performance optimization for data-heavy web applications</li>
-              <li>Global engineering leadership and cross-functional collaboration</li>
+
+        <div class="summary-grid">
+          <article class="panel feature-card">
+            <h3>Professional summary</h3>
+            <ul class="bullet-list">
+              <li>Experienced frontend developer and UI architect with deep hands-on expertise across Angular ecosystems.</li>
+              <li>Builds robust solutions by balancing business goals, UX quality, architecture, and delivery constraints.</li>
+              <li>Extensive experience with enterprise Angular applications, Nx monorepos, state management, and scalable UI systems.</li>
+              <li>Strong command of HTML, CSS, JavaScript, TypeScript, responsive design, accessibility, and progressive web apps.</li>
+              <li>Active technology writer and community contributor across Medium, DEV, Quora, and public web projects.</li>
             </ul>
+          </article>
+
+          <article class="panel feature-card emphasis-card">
+            <h3>What makes this profile impressive</h3>
+            <div class="feature-points">
+              <div>
+                <strong>Architecture mindset</strong>
+                <p>Turns legacy and large-scale systems into maintainable, high-performance frontend platforms.</p>
+              </div>
+              <div>
+                <strong>Platform leadership</strong>
+                <p>Leads standards, mentors teams, and drives consistent UI engineering practices across workstreams.</p>
+              </div>
+              <div>
+                <strong>Product execution</strong>
+                <p>Works across API integration, data-heavy UI, responsive layouts, performance, and business workflows.</p>
+              </div>
+              <div>
+                <strong>Public proof of work</strong>
+                <p>Backs experience with articles, experiments, and community-facing technical content.</p>
+              </div>
+            </div>
           </article>
         </div>
       </section>
 
-      <section class="section" id="experience">
+      <section class="section section-entrance" id="experience">
         <div class="section-heading">
-          <p class="eyebrow">Experience</p>
-          <h2>Career journey</h2>
+          <p class="eyebrow">Experience timeline</p>
+          <h2>Projects shown as a journey, not just a list</h2>
+          <p>Each role below highlights the product context, leadership scope, and engineering impact.</p>
         </div>
+
         <div class="timeline">
           <article class="panel timeline-item">
-            <div class="role-header">
-              <h3>Caterpillar India Engineering Services Pvt Ltd</h3>
-              <p>UI Architect | Autonomy Engineering • 10/2024 – Present</p>
+            <div class="timeline-meta">
+              <span class="timeline-period">Oct 2024 — Present</span>
+              <span class="project-pill">MineStar</span>
             </div>
+            <h3>UI Architect | Autonomy Engineering Specialist</h3>
+            <p class="role-company">Caterpillar India Engineering Services Pvt Ltd</p>
             <ul class="bullet-list">
-              <li>Led solution architecture and UI engineering for the digital transformation of industrial legacy systems.</li>
-              <li>Modernized the 25-year MineStar suite into a unified Angular-based ecosystem.</li>
-              <li>Designed a single-codebase experience across desktop, web, mobile, and extensible onboard interfaces.</li>
-              <li>Engineered a cognitive safe design system with 60+ Lit-based web components for mission-critical mining environments.</li>
-              <li>Directed and mentored a global UI engineering team of 70+ across multiple time zones and workstreams.</li>
+              <li>Leading solution architecture and UI engineering for the transformation of industrial legacy systems.</li>
+              <li>Modernizing the 25-year MineStar suite into a unified Angular-based ecosystem across multiple surfaces.</li>
+              <li>Designed a cognitive-safe design system with 60+ Lit-based web components for mission-critical environments.</li>
+              <li>Directed and mentored a global UI team across time zones, products, and delivery streams.</li>
             </ul>
+            <div class="tag-list">
+              <span>Solution architecture</span>
+              <span>Angular</span>
+              <span>Lit components</span>
+              <span>Design systems</span>
+            </div>
           </article>
 
           <article class="panel timeline-item">
-            <div class="role-header">
-              <h3>Caterpillar India Engineering Services Pvt Ltd</h3>
-              <p>System Architect | Autonomy Senior Engineer • 06/2022 – 09/2024</p>
+            <div class="timeline-meta">
+              <span class="timeline-period">Jun 2022 — Sep 2024</span>
+              <span class="project-pill">MineStar Edge • OMS 2.0</span>
             </div>
+            <h3>System Architect | Autonomy Senior Engineer</h3>
+            <p class="role-company">Caterpillar India Engineering Services Pvt Ltd</p>
             <ul class="bullet-list">
-              <li>Authored and maintained high-level design documents for the MineStar Edge cloud platform.</li>
-              <li>Defined browser rendering strategies for large-scale geospatial datasets and live asset visibility.</li>
-              <li>Established global UI/UX standards and unified design language with industrial accessibility compliance.</li>
-              <li>Supported an operational ecosystem that gives mine operators visibility into planning, quality, and surface execution.</li>
+              <li>Authored and maintained high-level designs for the MineStar Edge platform and related UI ecosystem.</li>
+              <li>Defined browser-rendering strategies for geospatial datasets and live asset visibility at scale.</li>
+              <li>Architected a micro-frontend direction for OMS 2.0 to support independent deployment and modular growth.</li>
+              <li>Established UI/UX standards and a unified visual language with strong accessibility alignment.</li>
             </ul>
+            <div class="tag-list">
+              <span>HLD</span>
+              <span>Micro-frontends</span>
+              <span>Geospatial UI</span>
+              <span>Accessibility</span>
+            </div>
           </article>
 
           <article class="panel timeline-item">
-            <div class="role-header">
-              <h3>Caterpillar India Engineering Services Pvt Ltd</h3>
-              <p>UI Lead | Engineer • 12/2019 – Present</p>
+            <div class="timeline-meta">
+              <span class="timeline-period">Dec 2019 — Present</span>
+              <span class="project-pill">eRoutes</span>
             </div>
+            <h3>UI Lead | Engineer</h3>
+            <p class="role-company">Caterpillar India Engineering Services Pvt Ltd</p>
             <ul class="bullet-list">
-              <li>Developed monorepo architecture from scratch using Nx to streamline project structure and collaboration.</li>
-              <li>Built enterprise Angular application screens with Angular Material and reusable smart/dumb components.</li>
-              <li>Managed application state with NgRx and collaborated closely with API teams to integrate data from multiple systems.</li>
-              <li>Enabled construction project tracking and asset monitoring using ERoutes.</li>
+              <li>Created a monorepo architecture from scratch using Nx to scale collaboration and application structure.</li>
+              <li>Built smart and dumb Angular components, state flows with NgRx, and enterprise-grade application screens.</li>
+              <li>Worked closely with API teams to model, integrate, and surface data from multiple systems.</li>
+              <li>Supported construction project tracking and heavy-asset monitoring experiences through eRoutes.</li>
             </ul>
+            <div class="tag-list">
+              <span>Nx monorepo</span>
+              <span>NgRx</span>
+              <span>Angular Material</span>
+              <span>API integration</span>
+            </div>
           </article>
 
           <article class="panel timeline-item">
-            <div class="role-header">
-              <h3>HCL Technologies</h3>
-              <p>UI Developer • Chennai • 03/2018 – 11/2019</p>
+            <div class="timeline-meta">
+              <span class="timeline-period">Mar 2018 — Nov 2019</span>
+              <span class="project-pill">Harvester</span>
             </div>
+            <h3>UI Developer</h3>
+            <p class="role-company">HCL Technologies • Client: Caterpillar Inc.</p>
             <ul class="bullet-list">
-              <li>Built an application from scratch using PrimeNG and Angular reusable components in TypeScript.</li>
-              <li>Implemented custom pipes, directives, services, validation controls, responsive layouts, routing, and lazy loading.</li>
-              <li>Worked extensively with observables, REST integrations, Jasmine, Karma, and Agile delivery practices.</li>
+              <li>Developed the application end-to-end as a single UI developer using Angular, PrimeNG, and reusable utilities.</li>
+              <li>Implemented custom pipes, directives, services, validations, dynamic components, routing, and lazy loading.</li>
+              <li>Used async patterns, RxJS, Jasmine, Karma, and Agile delivery practices across QA and production cycles.</li>
+              <li>Enabled dealer-side workflows to register assets, configure feed ownership, and manage service-provider visibility.</li>
             </ul>
+            <div class="tag-list">
+              <span>PrimeNG</span>
+              <span>Reactive forms</span>
+              <span>Jasmine/Karma</span>
+              <span>Agile delivery</span>
+            </div>
           </article>
 
           <article class="panel timeline-item">
-            <div class="role-header">
-              <h3>HCL Technologies</h3>
-              <p>UI Developer • Chennai • 08/2017 – 02/2018</p>
+            <div class="timeline-meta">
+              <span class="timeline-period">Aug 2017 — Feb 2018</span>
+              <span class="project-pill">VisionLink</span>
             </div>
+            <h3>UI Developer</h3>
+            <p class="role-company">HCL Technologies • Client: Caterpillar Inc.</p>
             <ul class="bullet-list">
-              <li>Developed user-facing features for desktop and mobile layouts with strong cross-browser compatibility.</li>
-              <li>Integrated RESTful services, conducted unit testing, and fixed defects across QA and production cycles.</li>
-              <li>Contributed to VisionLink applications for construction and heavy equipment fleet productivity.</li>
+              <li>Delivered desktop and mobile-friendly features for fleet productivity applications used in construction workflows.</li>
+              <li>Integrated RESTful services, improved browser compatibility, and participated in quality-focused release cycles.</li>
+              <li>Contributed to unit testing, debugging, defect fixes, sprint planning, and team collaboration rituals.</li>
             </ul>
+            <div class="tag-list">
+              <span>Responsive UI</span>
+              <span>REST integration</span>
+              <span>Cross-browser</span>
+              <span>Scrum</span>
+            </div>
           </article>
 
           <article class="panel timeline-item">
-            <div class="role-header">
-              <h3>Infosys Limited</h3>
-              <p>Java / UI Trainer • Mysore • 10/2014 – 09/2016</p>
+            <div class="timeline-meta">
+              <span class="timeline-period">Oct 2016 — Jul 2017</span>
+              <span class="project-pill">eBiz</span>
             </div>
+            <h3>Frontend Engineer</h3>
+            <p class="role-company">Infosys Limited • Client: AT&amp;T</p>
             <ul class="bullet-list">
-              <li>Developed web applications using JSF 2.2, Java collections, and Hibernate ORM.</li>
-              <li>Built and maintained internal applications for FP training and trainee project support.</li>
-              <li>Created and reviewed courseware, assessments, and training artifacts.</li>
+              <li>Built a portal to create trouble tickets and view service status without accessing the broader business center.</li>
+              <li>Worked with AngularJS, Bootstrap, HTML5, CSS3, REST APIs, and single-page application patterns.</li>
+              <li>Coordinated closely with stakeholders to translate business and UX needs into practical user-facing solutions.</li>
             </ul>
+            <div class="tag-list">
+              <span>AngularJS</span>
+              <span>Bootstrap</span>
+              <span>SPA</span>
+              <span>User experience</span>
+            </div>
+          </article>
+
+          <article class="panel timeline-item">
+            <div class="timeline-meta">
+              <span class="timeline-period">Oct 2014 — Sep 2016</span>
+              <span class="project-pill">JRail</span>
+            </div>
+            <h3>Java / UI Trainer</h3>
+            <p class="role-company">Infosys Limited • Mysore</p>
+            <ul class="bullet-list">
+              <li>Developed an internal enterprise application for trainee and employee project-work enhancement.</li>
+              <li>Worked with JSF 2.2, Java collections, Hibernate ORM, and layered application design.</li>
+              <li>Built training-related internal apps, courseware, assessments, and reviewed functional artifacts.</li>
+            </ul>
+            <div class="tag-list">
+              <span>Java</span>
+              <span>JSF</span>
+              <span>Hibernate</span>
+              <span>Training systems</span>
+            </div>
           </article>
         </div>
       </section>
 
-      <section class="section" id="skills">
+      <section class="section section-entrance" id="skills">
         <div class="section-heading">
-          <p class="eyebrow">Skills & Stack</p>
-          <h2>Technology focus</h2>
+          <p class="eyebrow">Stack & strengths</p>
+          <h2>Technology breadth with deep frontend specialization</h2>
         </div>
-        <div class="grid three-column">
-          <article class="panel">
-            <h3>Frontend</h3>
+
+        <div class="skill-grid">
+          <article class="panel skill-card">
+            <h3>Frontend systems</h3>
             <ul class="chip-list">
               <li>HTML5</li><li>CSS3</li><li>JavaScript</li><li>TypeScript</li><li>AngularJS</li><li>Angular</li><li>Lit</li><li>PrimeNG</li><li>Angular Material</li><li>Bootstrap</li><li>SCSS</li><li>LESS</li>
             </ul>
           </article>
-          <article class="panel">
-            <h3>Architecture & Data</h3>
+          <article class="panel skill-card">
+            <h3>Architecture & delivery</h3>
             <ul class="chip-list">
-              <li>Nx</li><li>NgRx</li><li>RxJS</li><li>GraphQL</li><li>RESTful Services</li><li>Highcharts</li><li>Grid</li><li>Flexbox</li><li>Responsive Design</li><li>Design Systems</li>
+              <li>Nx</li><li>NgRx</li><li>RxJS</li><li>REST</li><li>GraphQL</li><li>Responsive Design</li><li>PWA</li><li>Design Systems</li><li>Accessibility</li><li>Micro-frontends</li>
             </ul>
           </article>
-          <article class="panel">
-            <h3>Tooling & Platform</h3>
+          <article class="panel skill-card">
+            <h3>Tooling & platform</h3>
             <ul class="chip-list">
               <li>Node.js</li><li>Express.js</li><li>Webpack</li><li>npm</li><li>Yarn</li><li>Jasmine</li><li>Karma</li><li>JUnit</li><li>Azure DevOps</li><li>Git</li><li>VS Code</li><li>Eclipse</li>
             </ul>
@@ -210,64 +324,144 @@
         </div>
       </section>
 
-      <section class="section" id="credentials">
+      <section class="section section-entrance" id="writing">
+        <div class="section-heading">
+          <p class="eyebrow">Writing & public presence</p>
+          <h2>Articles, experiments, and developer-facing contributions</h2>
+        </div>
+
+        <div class="article-grid">
+          <a class="panel article-card" href="https://medium.com/@saleemmalikraja/install-multiple-node-js-version-in-windows-e3ee9682c1de" target="_blank" rel="noreferrer">
+            <span class="article-type">Medium</span>
+            <h3>Install multiple Node.js versions in Windows</h3>
+            <p>Practical setup guidance for managing multiple Node.js versions in a Windows environment.</p>
+          </a>
+          <a class="panel article-card" href="https://medium.com/@saleemmalikraja/deploying-an-angular-app-to-firebase-hosting-18f99c9d5722?source=user_profile_page---------1-------------326bd94d7a4d----------------------" target="_blank" rel="noreferrer">
+            <span class="article-type">Medium</span>
+            <h3>Deploying an Angular App to Firebase Hosting</h3>
+            <p>A clean walkthrough for taking an Angular application from local development to hosted deployment.</p>
+          </a>
+          <a class="panel article-card" href="https://medium.com/@saleemmalikraja/best-place-to-compare-and-get-the-best-node-package-3b22a629a198" target="_blank" rel="noreferrer">
+            <span class="article-type">Medium</span>
+            <h3>Best place to compare and get the best node package!!!</h3>
+            <p>A community-facing idea focused on quickly evaluating and comparing Node packages.</p>
+          </a>
+          <a class="panel article-card" href="https://medium.com/@saleemmalikraja/theme-your-angular-application-with-angular-material-library-477993fb746f?source=user_profile_page---------3-------------326bd94d7a4d----------------------" target="_blank" rel="noreferrer">
+            <span class="article-type">Medium</span>
+            <h3>Theme your Angular application with Angular Material library</h3>
+            <p>Hands-on guidance for creating a stronger Angular visual system using Angular Material theming.</p>
+          </a>
+          <a class="panel article-card" href="https://medium.com/@saleemmalikraja/angular-pwa-2ddc3cccd090" target="_blank" rel="noreferrer">
+            <span class="article-type">Medium</span>
+            <h3>Angular Progressive Web App — PWA</h3>
+            <p>How to create a more app-like Angular experience with offline-friendly progressive web app patterns.</p>
+          </a>
+          <a class="panel article-card" href="https://medium.com/@saleemmalikraja/multiple-environment-config-in-angular-6-dc0900326ccc" target="_blank" rel="noreferrer">
+            <span class="article-type">Medium</span>
+            <h3>Multiple environment config in Angular 6+ with Angular-CLI</h3>
+            <p>Configuration strategies for supporting different environments in Angular applications.</p>
+          </a>
+          <a class="panel article-card" href="https://medium.com/@saleemmalikraja/testing-service-workers-in-you-local-with-self-signed-certificate-angular-4f447c33d6fc" target="_blank" rel="noreferrer">
+            <span class="article-type">Medium</span>
+            <h3>Testing Service Worker in your local with self signed certificate - Angular</h3>
+            <p>Local testing workflow for Angular service workers using certificates in a development setup.</p>
+          </a>
+          <a class="panel article-card" href="https://dev.to/saleemmalikraja/dynamic-github-readme-3e67" target="_blank" rel="noreferrer">
+            <span class="article-type">DEV</span>
+            <h3>Dynamic GitHub readme</h3>
+            <p>A developer profile enhancement idea focused on making GitHub presence more dynamic and expressive.</p>
+          </a>
+        </div>
+
+        <div class="profile-strip panel">
+          <h3>Profiles</h3>
+          <div class="profile-links">
+            <a href="https://medium.com/@saleemmalikraja" target="_blank" rel="noreferrer">Medium</a>
+            <a href="https://dev.to/saleemmalikraja" target="_blank" rel="noreferrer">DEV</a>
+            <a href="https://github.com/saleemmalikraja" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="https://www.quora.com/profile/Saleem-Malik-10" target="_blank" rel="noreferrer">Quora</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-entrance" id="credentials">
         <div class="section-heading">
           <p class="eyebrow">Credentials</p>
-          <h2>Education, certifications & recognition</h2>
+          <h2>Education, certifications, and recognition</h2>
         </div>
-        <div class="grid two-column">
-          <article class="panel">
+
+        <div class="credential-grid">
+          <article class="panel credential-card">
             <h3>Education</h3>
             <ul class="credential-list">
-              <li><strong>Master of Engineering</strong> — Computer and Communication, Kamaraj College of Engineering and Technology, Chennai <span>First Class • GPA 8.13 CGPA</span></li>
-              <li><strong>Bachelor of Technology</strong> — Information Technology, Kalasalingam University, Srivilliputhur, Virudhunagar <span>First Class with Distinction • GPA 8.46 CGPA</span></li>
-              <li><strong>HSC</strong> — Mathematics and Biology, PKN Boys Higher Secondary School, Thirumangalam <span>GPA 85.25</span></li>
-              <li><strong>SSLC</strong> — PKN Boys Higher Secondary School, Thirumangalam <span>GPA 89.8</span></li>
+              <li><strong>Master of Engineering</strong> — Computer and Communication, Kamaraj College of Engineering and Technology <span>2012 – 2014 • 8.13 CGPA • First Class</span></li>
+              <li><strong>Bachelor of Technology</strong> — Information Technology, Kalasalingam University <span>2008 – 2012 • 8.46 CGPA • First Class with Distinction</span></li>
+              <li><strong>HSC</strong> — Mathematics and Biology, PKN Boys Higher Secondary School <span>2008 • 85.25</span></li>
+              <li><strong>SSLC</strong> — PKN Boys Higher Secondary School <span>2006 • 89.8</span></li>
             </ul>
           </article>
-          <article class="panel">
-            <h3>Certifications & achievements</h3>
+
+          <article class="panel credential-card">
+            <h3>Certifications & awards</h3>
             <ul class="credential-list">
               <li><strong>AWS Certified Cloud Practitioner</strong></li>
               <li><strong>Mining Practitioners Program</strong> — South Dakota School of Mines &amp; Technology</li>
-              <li><strong>Caterpillar Inc.</strong> honored award in recognition of commitment and valued contribution</li>
+              <li><strong>Caterpillar Inc.</strong> award for commitment and valued contribution</li>
               <li><strong>HCL Hackathon 2019</strong> — Runner up</li>
             </ul>
           </article>
         </div>
-      </section>
 
-      <section class="section" id="writing">
-        <div class="section-heading">
-          <p class="eyebrow">Writing & profiles</p>
-          <h2>Public links</h2>
-        </div>
-        <div class="grid two-column">
-          <article class="panel">
-            <h3>Articles & topics</h3>
-            <ul class="bullet-list compact">
-              <li><a href="https://comparenodepackage.netlify.app/graphMode" target="_blank" rel="noreferrer">Compare Node Package — Best place to compare node packages</a></li>
-              <li>Testing service worker in your local with self-signed certificate</li>
-              <li>Multiple environment config in Angular 6+ with Angular CLI</li>
-              <li>Angular Progressive Web App — PWA</li>
-              <li>Theme your Angular application with Angular Material library</li>
-              <li>Deploying an Angular App to Firebase Hosting</li>
-            </ul>
-          </article>
-          <article class="panel">
-            <h3>Profiles</h3>
-            <ul class="bullet-list compact">
-              <li><a href="https://www.quora.com/profile/Saleem-Malik-10" target="_blank" rel="noreferrer">Quora</a></li>
-              <li><a href="https://medium.com/@saleemmalikraja" target="_blank" rel="noreferrer">Medium</a></li>
-              <li><a href="https://github.com/saleemmalikraja" target="_blank" rel="noreferrer">GitHub</a></li>
-            </ul>
-          </article>
-        </div>
+        <section class="footer-cta panel">
+          <p class="eyebrow">Closing note</p>
+          <h2>Let the profile feel like a product experience.</h2>
+          <p>
+            This resume site is designed to present engineering depth, architecture thinking, and visible proof of work
+            in a way that is both recruiter-friendly and memorable.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="mailto:saleemmalikraja@gmail.com">Contact Saleem</a>
+            <a class="button button-secondary" href="#writing">Explore articles</a>
+          </div>
+        </section>
       </section>
     </main>
 
     <footer class="site-footer">
-      <p>Designed as a GitHub Pages-ready resume site for Saleem Malik Raja.</p>
+      <p>Designed as an animated, GitHub Pages-ready profile for Saleem Malik Raja.</p>
     </footer>
+
+    <script>
+      (function () {
+        const storageKey = "smr-theme";
+        const root = document.documentElement;
+        const button = document.querySelector("[data-theme-toggle]");
+        const label = document.querySelector("[data-theme-label]");
+        const icon = document.querySelector("[data-theme-icon]");
+
+        if (!button || !label || !icon) {
+          return;
+        }
+
+        const applyTheme = (theme) => {
+          root.setAttribute("data-theme", theme);
+          button.setAttribute("aria-pressed", String(theme === "light"));
+          label.textContent = theme === "light" ? "Light" : "Dark";
+          icon.textContent = theme === "light" ? "☀" : "☾";
+        };
+
+        const storedTheme = localStorage.getItem(storageKey);
+        const preferredTheme = window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+        let currentTheme = storedTheme || preferredTheme;
+
+        applyTheme(currentTheme);
+
+        button.addEventListener("click", () => {
+          currentTheme = currentTheme === "dark" ? "light" : "dark";
+          localStorage.setItem(storageKey, currentTheme);
+          applyTheme(currentTheme);
+        });
+      })();
+    </script>
   </body>
 </html>
