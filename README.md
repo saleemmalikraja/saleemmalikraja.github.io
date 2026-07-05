@@ -1,37 +1,28 @@
-## Welcome to GitHub Pages
+# Hi there, I'm Saleem Malik Raja 👋
 
-You can use the [editor on GitHub](https://github.com/saleemmalikraja/saleemmalikraja.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### Architect • Angular Ecosystem Specialist • Frontend Engineering Leader
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+I design and lead frontend ecosystems for complex digital products — from Angular platform strategy and design systems to data-heavy operational experiences, performance engineering, and team leadership.
 
-### Markdown
+---
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## 🚀 Building Scalable Enterprise Web Platforms
 
-```markdown
-Syntax highlighted code block
+*   **Platform Strategy:** Engineering high-performance web platforms built for scale and elegance.
+*   **Design Systems:** Delivering robust component libraries and modern web architectures.
+*   **Technical Leadership:** Driving engineering excellence and mentoring distributed delivery teams.
 
-# Header 1
-## Header 2
-### Header 3
+---
 
-- Bulleted
-- List
+## 💼 Current Status
 
-1. Numbered
-2. List
+*   🟢 **Open to impactful architecture, frontend platform, and digital transformation opportunities.**
 
-**Bold** and _Italic_ and `Code` text
+---
 
-[Link](url) and ![Image](src)
-```
+## 🔗 Connect With Me
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/saleemmalikraja/saleemmalikraja.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+*   🌐 **Portfolio:** [saleemmalikraja.github.io](https://saleemmalikraja.github.io/)
+*   💼 **LinkedIn:** [linkedin.com/in/saleem-malik-raja](https://www.linkedin.com/in/saleem-malik-raja/)
+*   📧 **Email:** [saleemmalikraja@gmail.com](mailto:saleemmalikraja@gmail.com)
+*   📱 **Phone:** +91 99444 94733
